@@ -16,22 +16,25 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
     <header class="site-header">
       <div class="site-header-top">
         <div class="site-header-container container">
           <div class="site-header-top-info">
             <a class="site-logo" href="index.html">
-              <div class="site-logo-img-box"><img class="site-logo-img" src="img/logo.svg" alt="Site-img"  width="265" height="28" srcset="img/logo.svg 1x, img/logo@2x.svg 2x"></div>
+              <img class="site-logo-img" src="img/logo.svg" alt="Site-img"  width="265" height="28" srcset="img/logo.svg 1x, img/logo@2x.svg 2x">
             </a>
-            <div class="site-header-currency">
-              <span class="site-header-currency">$ 10137.2</span>
-              <span class="site-header-currency">P 138.26</span>
-            </div>
+            <p class="today-currency"><span class="currency-icon">$</span>10137.2</p>
+            <p class="today-currency-rub"><span class="currency-icon">P</span>138.26</p>
             <!-- qidiruv button -->
-            <a class="" href="https://placeholder.com"><img class="site-header-search" src="https://via.placeholder.com/275x45" alt="search button"></a>
+            <div class="site-search-button">
+              <img class="site-search-icon" src="img/search.svg" alt="logo-search-icon" width="20" height="20px" srcset="img/search.svg 1x, img/search@2x.svg 2x">
+              <div class="site-search-name">Поиск</div>
+            </div>
             <!-- Language mode -->
-            <a href="https://placeholder.com"><img class="site-header-mode" src="https://via.placeholder.com/70x36" alt="mode"></a>
+            <div class="site-lang-mode">
+              <span class="lang-uzb">УЗ</span>
+              <span class="lang-ru">РУ</span>
+            </div>
             <!-- Log in link -->
             <a class="site-header-login" href="#">Войти</a>
           </div>
@@ -51,7 +54,7 @@
           <li class="sitenav-item"><a class="sitenav-link" href="#">Наука</a></li>
         </ul>
       </div>
+      <hr class="header-line">
     </header>
-  </div>
 </body>
 </html>
