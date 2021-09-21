@@ -37,9 +37,6 @@ body{
   text-decoration: none;
 }
 
-.site-logo{
-  padding-right: ;
-}
 
 .site-logo-img-box{
   background-color: #fff;
@@ -50,9 +47,11 @@ body{
   border-radius: 7px;
 }
 
-.site-header-currency{
-  width: 70px;
-  height: 20px;
+.site-logo-img{
+  display: block;
+}
+
+.site-header-currency{S
   margin-right: 25px;
   margin-top: 0;
   margin-bottom: 0;
@@ -68,7 +67,6 @@ body{
   margin: 0;
   padding: 0;
   margin-left: 247px;
-
   margin-right: 25px;
   border-radius: 60px;
 }
